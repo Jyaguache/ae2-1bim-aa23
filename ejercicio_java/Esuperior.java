@@ -26,6 +26,10 @@ public class Esuperior {
         System.out.println("La cantidad de tutores es: " +tutores);
         System.out.println("La cantidad de facultades es: " +facultades);
     }
+
+    void mostrarDatosln() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
       
     
 }
