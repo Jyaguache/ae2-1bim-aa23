@@ -11,18 +11,18 @@ package Clases3C;
 public class Carreras {
     public String tipo;
     public String nombre;
-    public String alumnos;
+    public int alumnos;
     
     
 //Constructor
-    public Carreras(String tipo, String nombre, String alumnos){
+    public Carreras(String tipo, String nombre, int alumnos){
         this.tipo = tipo;
         this.nombre = nombre;
         this.alumnos = alumnos;
     }
 
     public void mostrarDatos() {
-        System.out.println("El tipo de carrera es: " +tipo);
+        System.out.println("\nEl tipo de carrera es: " +tipo);
         System.out.println("El nombre de la carrera es: " +nombre);
         System.out.println("La cantidad de alumnos es: " +alumnos);
     }

@@ -11,11 +11,11 @@ package Clases3C;
 public class Esuperior {
     public String institucion;
     public String tutores;
-    public String facultades;
+    public int facultades;
     
     
 //Constructor
-    public Esuperior(String institucion, String tutores, String facultades) {
+    public Esuperior(String institucion, String tutores, int facultades) {
         this.institucion = institucion;
         this.tutores = tutores;
         this.facultades = facultades;
